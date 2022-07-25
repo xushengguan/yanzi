@@ -1,6 +1,3 @@
-# My520
-520表白神器
-@[TOC](目录)
 
 ## 一：项目展示
 项目效果：
@@ -8,7 +5,6 @@
 
 ## 二：使用方法
 使用方法：下载代码包，自行替换文本和图片即可。
-项目源码：[https://github.com/xuyuanzhi051/My520](https://github.com/xuyuanzhi051/My520)
 **定制：**
 **1. 主页 index.html**
 无需修改任何内容
