@@ -158,7 +158,8 @@
       }
 
       .container_s {
-        width: 1002px;
+        /* width: 1002px; */
+        width: 1200px;
       }
 
       .container_l {
@@ -177,7 +178,8 @@
       }
 
       .container_s #content_right {
-        width: 271px;
+        /* width: 271px; */
+        width: 330px;
       }
 
       .container_l #content_right {
@@ -2110,7 +2112,7 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        z-index: 301;
+        z-index: 301000000;
         min-width: 1000px;
         background: #fff;
         border-bottom: 1px solid #ebebeb;
@@ -3110,7 +3112,7 @@
       }
 
       .cr-content {
-        width: 300px;
+        /* width: 300px; */
         font-size: 13px;
         line-height: 1.54;
         color: pink;
@@ -3279,7 +3281,9 @@
       }
 
       .opr-recommends-merge-content .c-span4 {
-        margin-right: 0;
+        /* margin-right: 0; */
+        margin-top: 10px;
+        margin-right: 10px;
       }
 
       .c-row.c-gap-top {
@@ -9713,6 +9717,11 @@
       .fb-textarea-sug textarea {
         margin-top: 0;
       }
+
+      .opr-recommends-merge-content{
+        /* margin-top: 10px;
+        margin-right: 10px; */
+      }
     </style>
   </head>
 
@@ -10256,13 +10265,14 @@
             _zoom: 1;
           }
 
-          #lover {
+          .lover {
             transition-duration: 500ms;
-            z-index: 100000;
+            z-index: 1000;
           }
-
-          #lover:hover {
-            transform: scale(3);
+          /* 放大 */
+          .lover:hover {
+            transform: scale(2);
+            z-index: 2000;
           }
 
           .opr-recommends-merge-d {
@@ -10514,6 +10524,7 @@
                             .opr-recommends-merge-mask {
                               height: 100px;
                               width: 100px;
+                              object-fit: cover;
                             }
 
                             .opr-recommends-merge-item-vertical
@@ -10536,10 +10547,10 @@
                                   class="c-span4 opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'谢谢','rsv_re_uri':'3f30a2f7476349dc8a8519ace6fe312e'}"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;">
                                       <img
-                                        src="http://upload.mnw.cn/2018/0814/1534238469688.jpg"
+                                        src="./images/pic2.jpeg"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
                                     <a
@@ -10553,10 +10564,10 @@
                                   class="c-span4 opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'怙恶不悛','rsv_re_uri':'6a9880873dcd4e22b113ff95f9b3518c'}"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="http://upload.mnw.cn/2018/0814/1534238533285.jpg"
+                                        src="./images/pic3.jpeg"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
                                     <a
@@ -10570,10 +10581,10 @@
                                   class="c-span4 c-span-last-s opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'无语','rsv_re_uri':'5a8b1f6aeb344c22824de8c8e2b3932d'}"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="http://upload.mnw.cn/2018/0814/1534238527856.jpg"
+                                        src="./images/pic1.jpeg"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
                                     <a
@@ -10583,14 +10594,14 @@
                                     ></a>
                                   </div>
                                 </div>
-                                <div
+                                <!-- <div
                                   class="c-span4 c-span-last opr-recommends-merge-lastspan opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'回话','rsv_re_uri':'bde0f4e16b1442c48ccd2aa94e74c6df'}"
                                 >
                                   <div class="opr-recommends-merge-p">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        data-src="https://dss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3949176641,4240426765&amp;fm=58"
+                                        data-src="./images/pic1.jpeg"
                                         data-b64-id="3949176641_4240426765_58"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
@@ -10613,17 +10624,17 @@
                                       回答别人问话
                                     </p>
                                   </div>
-                                </div>
+                                </div> -->
                               </div>
                               <div class="c-row c-gap-top">
                                 <div
                                   class="c-span4 opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'好像','rsv_re_uri':'fb2bc6a111344a699f3e6a0ae5efca73'}"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="http://upload.mnw.cn/2018/0814/1534238522704.jpg"
+                                        src="./images/pic4.jpeg"
                                         data-b64-id="1870460053_2750846622_58"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
@@ -10639,12 +10650,11 @@
                                   data-click="{'rsv_re_ename':'尴尬','rsv_re_uri':'ef5f4dd9033f484e8b74f3bbdd997e8e'}"
                                 >
                                   <div
-                                    class="opr-recommends-merge-p"
-                                    id="lover"
+                                    class="opr-recommends-merge-p lover"
                                   >
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="images/lover.jpeg"
+                                        src="images/pic7.jpeg"
                                         data-b64-id="1356031244_4184783259_58"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
@@ -10659,10 +10669,10 @@
                                   class="c-span4 c-span-last-s opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'你们','rsv_re_uri':'e4d4c452e2224a50b14f78d29922ee4c'}"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="http://upload.mnw.cn/2018/0814/1534238517262.jpg"
+                                        src="./images/pic5.jpeg"
                                         data-b64-id="4014817800_409926055_58"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
@@ -10679,10 +10689,10 @@
                                   class="c-span4 opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'词语','rsv_re_uri':'eef583e4a993497787f59d041d7a2ae3'}"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="http://upload.mnw.cn/2018/0814/1534238498984.jpg"
+                                        src="./images/pic6.jpeg"
                                         data-b64-id="211622640_3620576003_58"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
@@ -10696,12 +10706,11 @@
                                 <div
                                   class="c-span4 opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'纠结','rsv_re_uri':'ad0989eedaee409fac52606b8f42b5d2'}"
-                                  style="margin-top: 3px"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="http://upload.mnw.cn/2018/0814/1534238487545.jpg"
+                                        src="./images/lover.jpeg"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
                                     <a
@@ -10716,10 +10725,10 @@
                                   class="c-span4 c-span-last-s opr-recommends-merge-item"
                                   data-click="{'rsv_re_ename':'仿佛','rsv_re_uri':'49987c6f64494cd68b6dbed8dd13ab3f'}"
                                 >
-                                  <div class="opr-recommends-merge-p">
+                                  <div class="opr-recommends-merge-p lover">
                                     <a target="_self" href="javascript:;"
                                       ><img
-                                        src="http://upload.mnw.cn/2018/0814/1534238476509.jpg"
+                                        src="./images/pic8.jpeg"
                                         class="c-img c-img4 opr-recommends-merge-img"
                                     /></a>
                                     <a
@@ -11513,6 +11522,7 @@
     <script src="sakura.js"></script>
     <script>
       let loveWords = [
+        "请原谅我的不善言辞，通过这样的方式表达",
         "打你名字再多遍都不费劲，输入法会自己跑出来",
         "你就算回一个'嗯'或者是'....'我都还会大话连篇的与你分享我今天有趣的事情",
         "你笑的时候真好看，我看的是有那么点不想移开视线",
