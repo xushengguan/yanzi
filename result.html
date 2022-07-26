@@ -160,6 +160,15 @@
       .container_s {
         /* width: 1002px; */
         width: 1200px;
+        overflow: hidden;
+      }
+
+      .clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+        content: "";
+        display: block;
+        height: 0;
+        clear:both;
+        visibility: hidden;
       }
 
       .container_l {
@@ -10474,7 +10483,7 @@
             max-width: 247px;
           }
         </style>
-        <div id="container" class="container_s">
+        <div id="container" class="container_s clearfix">
           <div id="content_right" class="cr-offset">
             <table cellspacing="0" cellpadding="0">
               <tbody>
